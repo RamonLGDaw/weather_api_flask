@@ -7,8 +7,13 @@
 </head>
 <body>
     <h1>Weather Data API</h1>
-    <p>Url Format: http://127.0.0.1:5000/api/v1/station/date</p>
+    <p>Get temp from one station on a date: http://127.0.0.1:5000/api/v1/station/date</p>
     <p>Example: <a href="http://127.0.0.1:5001/api/v1/10/1988-10-25">http://127.0.0.1:5001/api/v1/10/1988-10-25</a></p>
+    <p>Get all data from one station: http://127.0.0.1:5000/api/v1/station</p>
+    <p>Example: <a href="http://127.0.0.1:5001/api/v1/10">http://127.0.0.1:5001/api/v1/10</a></p>
+    <p>Get all data from one station on a determinated year: http://127.0.0.1:5000/api/v1/yearly/station/year</p>
+    <p>Example: <a href="http://127.0.0.1:5001/api/v1/yearly/10/1988">http://127.0.0.1:5001/api/v1/yearly/10/1988</a></p>
+
     <!-- The 'safe' keyword allows rendering HTML; otherwise, it renders as a string. -->
     <p>{{data|safe}}</p>
       
